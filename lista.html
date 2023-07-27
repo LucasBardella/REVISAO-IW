@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+
+    <style>
+        *{
+        margin:0;
+        padding:0;
+        }
+        nav{
+        background: #BA0000; 
+        padding: 10px;
+        height: 30px;
+        }
+        nav ul{
+        List-style: none;
+        }
+        nav ul li{
+        float:left;
+        position:relative;
+        }
+        nav ul li a{
+        display: block;
+        padding: 5px 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;
+        text-decoration:none;
+        color:white;
+        }
+        nav ul li a:hover{
+        background-color:white;
+        color:black;
+        }
+        nav ul li ul{
+        background: #BA0000; 
+        top: -5000000px;
+        position: absolute;
+        }
+        nav ul li:hover ul{
+        Left:0px;
+        top:30px;
+        } 
+        nav ul li ul li{ 
+        left: width:300px;
+        border-bottom:1px solid white;
+        }
+        nav ul li ul li a{
+        padding:10px;
+        }
+        nav ul li ul li a:hover{
+        background-color: white;
+        color:black;
+        }
+    </style>
+    
+</body>
+</html>
